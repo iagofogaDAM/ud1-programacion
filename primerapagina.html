@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página</title>
+    <style>
+        /* 1. CONFIGURACIÓN DEL FONDO DE PANTALLA */
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el contenido horizontalmente */
+            min-height: 100vh;
+            
+            /* Reemplaza la URL de abajo por la imagen de fondo que tú quieras */
+            background-image: url('/home/dam1_alu09@inf.ald/Descargas/a5.webp');
+            background-size: 4444px;       /* Hace que la imagen cubra toda la pantalla */
+            background-position: center;  /* Centra la imagen de fondo */
+            background-attachment: fixed; /* El fondo se queda fijo al hacer scroll */
+        }
+
+        /* 2. CONTENEDOR PRINCIPAL (Efecto cristal translúcido para que se lea bien) */
+        .main-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Blanco con 90% de opacidad */
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center; /* Centra los textos */
+            box-sizing: border-box;
+        }
+        .superlist {
+            background-color: rgba(162, 168, 224, 0.9); /* Blanco con 90% de opacidad */
+            max-width: 300px;
+            width: 100%;
+            padding: 0px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(252, 2, 2, 0.2);
+            text-align: left; /* Centra los textos */
+            box-sizing: content-box;
+            
+        }
+
+        /* 3. COLORES Y TEXTOS */
+        h1 {
+            color: #002fff; /* Rojo Ferrari */
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #1976d2; /* Azul sutil */
+            margin-top: 25px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        /* Centrar y estilizar las listas */
+        .list-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        /* 4. BOTÓN ESTILIZADO */
+        .btn-link {
+            text-decoration: none; /* Quita el subrayado del enlace */
+        }
+
+        button {
+            
+            border: 10px solid #333;
+            padding: 10px 20px;
+            font-size: 3rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        button:hover {
+            background-color: #333;
+            color: #ffeb3b;
+            transform: scale(1.05); /* Se agranda un poco al pasar el ratón */
+        }
+
+        /* 5. DISEÑO DE LA GALERÍA EN CUADRADOS PERFECTOS */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reorganiza los cuadrados según la pantalla */
+            gap: 15px; /* Espacio entre cuadrados */
+            margin-top: 15px;
+        }
+
+        .item-galeria {
+            position: relative;
+            width: 100%;
+            padding-top: 100%; /* Truco CSS para que sea un cuadrado perfecto (proporción 1:1) */
+            overflow: hidden;
+            border-radius: 10px;
+            border: 1px solid #033cf5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-galeria img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hace que la foto se adapte al cuadrado sin deformarse */
+            transition: transform 0.3s ease;
+        }
+
+        .item-galeria img:hover {
+            transform: scale(1.1); /* Efecto zoom al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Contenedor blanco para agrupar tu contenido y separarlo del fondo -->
+  <div class="main-container">
+      
+      <h1>Hola mundo</h1>
+      <p>Esta es mi primera página web</p> <!-- Corregido: cerrado con </p> -->
+      
+      <h2>Sobre esta página</h2> <!-- Corregido: cerrado con </h2> -->
+      
+      <div class="list-container">
+          <ul>
+              <li>ARROZ</li>
+              <li>POLLO</li>
+              <li>AZUCAR</li>
+              <li>CÚRCUMA</li>
+          </ul>
+          <ol>
+              <li>ARROZ</li>
+              <li>POLLO</li>
+              <li>AZUCAR</li>
+              <li>CÚRCUMA</li>
+          </ol>
+      </div>
+    
+      
+      <a href="http://youtube.com" target="_blank" class="btn-link"> 
+          <button style="color: #faf8f8; border-bottom-color: #0867f7;background-color: #ff0000;">YouTube</button>
+      </a>   
+
+      <h2>Mi Galería de Fotos</h2>
+      <hr>
+      <h1>Estos son posiblemente los ferraris mas feos del mundo</h1>
+      <div class="galeria">
+          
+          <div class="item-galeria">
+              <!-- NOTA: Asegúrate de que esta ruta local funciona en tu PC, o usa una URL de internet -->
+              <img src="/home/dam1_alu09@inf.ald/Descargas/f1.webp" alt="Imagen de Ferrari">
+          </div>
+
+          <!-- Foto 2 (Ejemplo de internet) -->
+          <div class="item-galeria">
+              <img src="/home/dam1_alu09@inf.ald/Descargas/a1.jpeg">
+          </div>
+
+          <div class="item-galeria">
+              <img src="/home/dam1_alu09@inf.ald/Descargas/a2.jpg" >
+          </div>
+
+          <div class="item-galeria">
+              <img src="/home/dam1_alu09@inf.ald/Descargas/a3.jpeg" >
+          </div>
+
+      </div>
+
+  </div>
+  <br>
+  <br>
+<h1>Las Páginas de tus superheroes favoritos</h1>
+    <div class="superlist">
+            <ul>
+                <a href="https://www.batman.com">
+                <li>BATMAN</li>
+                </a>
+               <a href="https://www.superman.com">
+                <li>SUPERMAN</li>
+                </a>
+                <a href="https://www.spiderman.com">
+                <li>SPIDERMAN</li>
+                </a>
+                <a href="https://www.ironman.com">
+                <li>IRONMAN</li>
+                </a>
+                <a href="https://www.toxoman.com">
+                <li>TOXOMAN</li>
+                </a>
+                
+            </ul>
+
+    </div>
+
+</body>
+</html>
