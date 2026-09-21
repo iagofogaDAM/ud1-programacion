@@ -1,6 +1,0 @@
-edad = int(input("¿Cuántos años tienes? "))
-nota = float(input("Introduce tu nota: "))
-nombre = input("Introduce tu nombre: ")
-print (edad>=18)
-print (nota>=5 and nota>=9)
-print (len(nombre)>=3)

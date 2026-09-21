@@ -1,8 +1,0 @@
-din1 = float(input("Que cantidad has pagado , amigo1? "))
-din2 = float(input("Que cantidad has pagado , amigo2? "))
-din3 = float(input("Que cantidad has pagado , amigo3? "))
-print("La cantidad total es: ", din1 + din2 + din3)
-print("La cantidad que debe pagar cada uno es: ", (din1 + din2 + din3) / 3)
-print ("La cantidad que debe pagar amigo1 es: ", (din1 + din2 + din3) /3 - din1)
-print ("La cantidad que debe pagar amigo2 es: ", (din1 + din2 + din3) / 3 - din2)
-print ("La cantidad que debe pagar amigo3 es: ", (din1 + din2 + din3) / 3 - din3)   

@@ -1,5 +1,0 @@
-base = float(input("Introduce la base: "))
-altura = float(input("Introduce la altura: "))
-radio = float(input("Introduce el radio: "))
-perimetro = float(input("Introduce el perimetro: "))
-print("Area del circulo", 3.1416 * radio ** 2)
