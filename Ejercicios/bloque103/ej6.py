@@ -1,7 +1,6 @@
 peso = float(input("Dime tu peso :"))
 alt = float(input("Dime tu altura :"))
-#imc = (peso / alt * 2)#
-imc = 15
+imc = (peso / alt * 2)
 
 if imc < 18.5 :
  print ("Bajo peso")
