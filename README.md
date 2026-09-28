@@ -12,4 +12,4 @@ Hacer la variable bisiesto , iba por otro lado
 ## 25/09/26
 -
 ## 28/09/26
--
+El for y su utilidad se complicó un poco
