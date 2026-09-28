@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 secret = "secret"
 
 for palabra in range(5):
