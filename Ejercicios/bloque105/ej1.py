@@ -5,10 +5,10 @@ def calcular_importe(horas):
         print ("gratis")
     elif n > 1 and n <= 4 :
         precio = (n * 1.50)
-        print (precio,"€")
+        print ("Importe a pagar:",precio,"€")
     elif n > 4:
         precio = (6+((n-4)))
-        print (precio,"€")   
+        print ("Importe a pagar:",precio,"€")   
     else :
         print () 
 calcular_importe(n)
