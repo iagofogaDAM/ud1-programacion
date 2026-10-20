@@ -21,5 +21,5 @@ Salté los ejercicios 8,9 y 10 para hoy y algunos el sentido comun me llevaba a 
 Ejercicios del bloque 104 acabados y ejercicio 1 del bloque 105
 ## 16/09/26
 El ejercicio de numeros primos se complico por intentar sacar basicamente una lógica que saca lo que se pide , practicamente yendo prueba y error
-
+## 19/09/26
 
