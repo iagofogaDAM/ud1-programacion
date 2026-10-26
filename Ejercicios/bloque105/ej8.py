@@ -1,10 +1,9 @@
-def pedir_entero_positivo(numero):
+def pedir_entero_positivo():
     while True:
-        if numero < 0 :
-            print ("E")
-            return True
-        else :
-            return False
+        numero = int(input("Dame un número: "))
+        if numero > 0:
+            return numero
+        print("Dame un número entero que sea positivo")
 
-numero = (int(input("Dame un número")))
-pedir_entero_positivo(numero)
+numero = pedir_entero_positivo()
+print("Tu número:", numero)
