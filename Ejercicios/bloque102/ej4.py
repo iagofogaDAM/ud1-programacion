@@ -3,3 +3,8 @@ altura = float(input("Introduce la altura: "))
 radio = float(input("Introduce el radio: "))
 perimetro = float(input("Introduce el perimetro: "))
 print("Area del circulo", 3.1416 * radio ** 2)
+print("Area del triangulo", base * altura / 2)
+perimetro = 2 * 3.1416 * radio
+print("Perimetro", perimetro)
+print("Area del triangulo", base * altura / 2)
+print("Perimetro", 2 * 3.1416 * radio)

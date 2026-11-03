@@ -24,13 +24,13 @@ El ejercicio de numeros primos se complico por intentar sacar basicamente una l�
 ## 20/09/26
 Nada reseñable
 ## 23/09/26
-Nada reseñable
+-
 ## 26/09/26
 Nada reseñable
 ## 27/09/26
 Nada resesable
 ## 30/09/26
-Nada reseñable
+Nada reseñable e magosto
 ## 02/10/26
 Nada reseñable
 ## 03/10/26
