@@ -23,3 +23,4 @@ def calcular_descuento_irpf(sueldo_bruto: float | int, irpf: int) -> float:
 salario = int(input("Dame tu sueldo bruto: ")) 
 irpf = int(input("Y tu irpf: "))  
 calcular_descuento_irpf(salario , irpf)
+calcular_descuento_irpf("1500",15)
