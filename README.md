@@ -15,24 +15,28 @@ Hacer la variable bisiesto , iba por otro lado.
 El for y su utilidad se complicó un poco.
 ## 29/09/26
 La comprensión real de los "for" y el "in range" se vuelve bastante liosa a la hora de hacer bucles como el del bloque 104 ej7 e o ej11.
-## 5/09/26
+## 5/10/26
 Salté los ejercicios 8,9 y 10 para hoy y algunos el sentido comun me llevaba a hacerlos con el while en vez de el for.
-## 9/09/26
+## 9/10/26
 Ejercicios del bloque 104 acabados y ejercicio 1 del bloque 105
-## 16/09/26
+## 16/10/26
 El ejercicio de numeros primos se complico por intentar sacar basicamente una lógica que saca lo que se pide , practicamente yendo prueba y error
-## 20/09/26
+## 20/10/26
 Nada reseñable
-## 23/09/26
+## 23/10/26
 -
-## 26/09/26
+## 26/10/26
 Nada reseñable
-## 27/09/26
+## 27/10/26
 Nada resesable
-## 30/09/26
+## 30/10/26
 Nada reseñable e magosto
-## 02/10/26
+## 02/11/26
 Nada reseñable
-## 03/10/26
+## 03/11/26
+Nada reseñable 
+## 06/11/26
+Nada reseñable 
+ 
 
 
