@@ -29,11 +29,11 @@ def lucha():
                 return
             else:
                 print("Maquina Contraataca")
-                jug1 = (jug1 - atacar(5,55))
+                jug1 = (jug1 - atacar(2,6))
                 print("Tu vida es : ", jug1)
         else:
             if jug1 <= 0 :
-                print("Gano la maquina")
+                print("Ha ganado el enemigo")
                 return
 
 lucha()

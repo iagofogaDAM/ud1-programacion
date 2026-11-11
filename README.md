@@ -53,6 +53,18 @@ En ese mismo ejercicio "al mejor de 5" genero en mi interpretacion inicial un fo
 BLOQUE 107 EJ3:
 En este ejercicio el problema mas claro es el de concatenar funciones , pero solucionado facilmente igualando una variable a dicha funcion
 
+BLOQUE 107 EJ4:
+Tuve un pequeño problema de redundancias que acabe solucionando con los condicionales e intente optimizarlo un poco 
+Ademas un problema al entender como funciona realmente una funcion con dos valores y donde los usa realmente , preo creo que la duda esta mas o menos entendida
+def atacar(dano_min,dano_max):
+   dano = random.randint(dano_min,dano_max)
+   return dano
+
+BLOQUE 107 EJ5:
+Ningun problema
+
+
+
  
 
 
