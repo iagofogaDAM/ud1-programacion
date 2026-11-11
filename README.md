@@ -63,6 +63,12 @@ def atacar(dano_min,dano_max):
 BLOQUE 107 EJ5:
 Ningun problema
 
+BLOQUE 107 EJ6:
+Problemas principales al sacar o necesitar usar funciones dentro de otras funciones, cuando y por que usar los atributos dentro de los parentesis:
+ticket = cerrar_ticket(total,articulos)
+def cerrar_ticket(total,articulos):
+    print("Has comprado ",articulos, "articulos")
+    print("El precio total es de :",total,"€")
 
 
  
