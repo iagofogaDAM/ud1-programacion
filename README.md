@@ -42,12 +42,16 @@ Nada reseñable
 ## 10/11/26
 Nada reseñable 
 ## 11/11/26
+BLOQUE 107 EJ2:
 Pequeño problema de indentacion en un while dentro de la funcion del ej2 bloque 107.
 El bucle se volvia infinito y nunca llegaba al marcador por estar dentro del else.
 Ademas , empece el ejercico planteandolo como que la condicion no valida fuera la ultima en validarse
 y el marcador se enseñaba aunque el input no era valido.
 Al reordenarlo funciona con normalidad.
 En ese mismo ejercicio "al mejor de 5" genero en mi interpretacion inicial un for , como que eran solo 5 rondas , no tengo claro que sea asi.
+BLOQUE 107 EJ3:
+En este ejercicio el problema mas claro es el de concatenar funciones , pero solucionado facilmente igualando una variable a dicha funcion
+
  
 
 
