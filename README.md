@@ -49,6 +49,7 @@ Ademas , empece el ejercico planteandolo como que la condicion no valida fuera l
 y el marcador se enseñaba aunque el input no era valido.
 Al reordenarlo funciona con normalidad.
 En ese mismo ejercicio "al mejor de 5" genero en mi interpretacion inicial un for , como que eran solo 5 rondas , no tengo claro que sea asi.
+
 BLOQUE 107 EJ3:
 En este ejercicio el problema mas claro es el de concatenar funciones , pero solucionado facilmente igualando una variable a dicha funcion
 
